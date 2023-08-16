@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color: red;
+}
+.footer {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color: red;
+}
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  z-index: 2;
+  flex-direction: column;
+}
+.overlay-text span {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.overlay-text button {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px;
+  color: #333;
+  cursor: pointer;
+}
