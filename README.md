@@ -1,5 +1,7 @@
 # Travelopia
 I have implemented the given task in two ways, the details are as follows : 
+
+
   **1)Basic-html:**
   
   The given task was implemented using HTML5, CSS3
